@@ -1,0 +1,36 @@
+name: EventPlugin
+version: 1.0
+main: org.example.EventPlugin
+api-version: 1.16
+commands:
+  event:
+    description: Управление баном и мутом
+    usage: /<command> <kick|chat|mute|ban|check|checkaddtime|checkrevise|checkban|checkbanpriz|checkchat|dupeip|baninfo|unban|help> [аргументы]
+permissions:
+  lifesteal.event.kick:
+    description: Разрешает использовать команду /event kick
+    default: op
+  lifesteal.event.mute:
+    description: Разрешает использовать команду /event mute
+    default: op
+  lifesteal.event.ban:
+    description: Разрешает использовать команду /event ban
+    default: op
+  lifesteal.event.check:
+    description: Разрешает использовать команды проверки
+    default: op
+  lifesteal.event.dupeip:
+    description: Разрешает использовать команду /event dupeip
+    default: op
+  lifesteal.event.baninfo:
+    description: Разрешает использовать команду /event baninfo
+    default: op
+  lifesteal.event.unban:
+    description: Разрешает использовать команду /event unban
+    default: op
+  lifesteal.eventchat:
+    description: Разрешает использовать Event Chat (для лсов тупые поняли)
+    default: false
+  lifesteal.event:
+    description: Разрешает использовать команду /event help
+    default: op

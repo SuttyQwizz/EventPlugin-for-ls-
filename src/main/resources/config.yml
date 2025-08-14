@@ -47,8 +47,8 @@ messages:
   no-teleport: "&cВы не можете телепортироваться во время проверки!"
   player-only: "&cЭта команда только для игроков!"
   chat-usage: "&cИспользование: /event chat <сообщение>"
-  chat-enabled: "&aРежим Event Chat включен. Все ваши сообщения будут отправляться в Event Chat."
-  chat-disabled: "&aРежим Event Chat выключен."
+  chat-enabled: "&Чат Event Chat включен. Все ваши сообщения будут отправляться в Event Chat."
+  chat-disabled: "&Чат Event Chat выключен."
   help-header: "&eПривет, дорогой ЛС, наверняка ты новичок раз смотришь команды!"
   help-commands:
     - "&7/event kick <ник> &f- Убивает игрока и переводит в режим наблюдателя."
@@ -63,8 +63,8 @@ messages:
     - "&7/event dupeip <ник> &f- Показывает игроков с тем же IP (красный - в бане)."
     - "&7/event baninfo <ник> &f- Показывает информацию о бане игрока."
     - "&7/event unban <ник> &f- Разбанивает игрока."
-    - "&7/event chat <сообщение> &f- Отправляет сообщение в Event Chat (только для донатеров и ЛС)."
-    - "&7/event chat &f- Включает/выключает режим Event Chat."
+    - "&7/event chat <сообщение> &f- Отправляет сообщение в Event Chat (только для админов и для слабоумных лсов)."
+    - "&7/event chat &f- Включает/выключает Event Chat."
     - "&7/event help &f- Показывает это сообщение."
 chat:
   format: "&7[Event Chat] &f%player%: &e%message%"
